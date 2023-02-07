@@ -1,5 +1,4 @@
 openai
-requests
-streamlit 
+requests 
 streamlit_lottie
 python-dotenv
