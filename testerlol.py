@@ -1,5 +1,6 @@
 from dotenv import load_dotenv
 import openai
+import os
 import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
