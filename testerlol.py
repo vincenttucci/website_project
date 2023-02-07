@@ -53,11 +53,12 @@ with st.container():
     with left_column:
         user_input = st.text_input("Enter Company Here")
         if st.button("Click to run"):
-            st.download_button("Download data as .docx", str(cool_ai_stuff(user_input)),file_name = 'output.docx', mime ='docx')
-           #st.download_button(label="Download data as docx", str(cool_ai_stuff(user_input)), file_name='output.docx', mime='docx')
+            st.download_button("Download data as .txt", str(cool_ai_stuff(user_input)))
 
         st.text("Description: Enter a company in the search bar, click enter, then click")
         st.text("the button. Wait about a minute and a document should generate.")
+        st.text("Once the document has generated, a download button will appear that you can click.")
+        st.text("Some precaution messages may appear but just accept them, it just downloads a docx.")
     with right_column:
         st_lottie(computeranalystguy, height = 300, key = "coding", loop=False)
 
