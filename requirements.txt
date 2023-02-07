@@ -2,5 +2,4 @@ openai
 requests
 streamlit 
 streamlit_lottie
-python-docx
 python-dotenv
